@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blackjack / GAME</title>
+    <link rel="stylesheet" href="index2.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+
+<body>
+    <img class="page-background" src="Images/casinobackground.jpg">
+    <img class="page-background2" src="Images/game-cards.png">
+    <div class="message-dialog" id="message-dialog">
+        <p class="message" id="message"></p>
+    </div>
+    <main>
+        <div class="main-top">
+            <div class="top-left">
+                <img class="robo-image" src="Images/roboIcon.png">
+                <div class="description-holder">
+                    <p class="detail-text" id="robo-name-el">Robo:</p>
+                    <p class="detail-text" id="robo-point-el">Won: 0</p>
+                    <p class="detail-text" id="robo-chips-el">Chips: $200</p>
+                </div>
+            </div>
+            <div class="top-right">
+                <img class="robo-image" src="Images/userIcon.png">
+                <div class="description-holder">
+                    <p class="detail-text" id="user-name-el">User:</p>
+                    <p class="detail-text" id="user-point-el">Won: 0</p>
+                    <p class="detail-text" id="user-chips-el">Chips: $200</p>
+                </div>
+            </div>
+        </div>
+        <div class="main-bottom">
+            <p class="game-title">BLACKJACK</p>
+            <div class="bottom-btn">
+                <button class="game-btn" id="take-card">Take Card</button>
+                <button class="game-btn finishTurn" id="finish-turn">FINISH TURN</button>
+                <button class="game-btn" id="back-menu">Back TO MENU</button>
+            </div>
+            <div class="bottom-btn bottom-btn2">
+                <button class="catch-btn" id="catch25">$25</button>
+                <button class="catch-btn" id="catch50">$50</button>
+                <button class="catch-btn" id="catch100">$100</button>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="index2.js"></script>
+
+    <footer>
+        <p class="founder">MADEBY: Mohammad</p>
+    </footer>
+</body>
+
+</html>
